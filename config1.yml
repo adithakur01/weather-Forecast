@@ -1,3 +1,0 @@
-api_settings:
-  key: "your_api_key"
-  base_url: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
