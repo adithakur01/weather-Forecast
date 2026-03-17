@@ -2,6 +2,7 @@ import yaml, requests, os, pandas as pd
 from datetime import datetime, timedelta
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+cfg1 = yaml.safe_load(open(os.path.join(base_dir, "config1.yaml")))
 cfg = yaml.safe_load(open(os.path.join(base_dir, "config.yaml")))
 
 end_date = (datetime.now() - timedelta(days=2)).strftime('%Y-%m-%d')
@@ -31,5 +32,5 @@ if res.status_code == 200:
     h_df['date'] = pd.to_datetime(h_df['datetime']).dt.date.astype(str)
     
     master = pd.merge(h_df, d_df, on='date', how='left').drop(columns=['date'])
-    master.to_csv(os.path.join(raw_dir, f"{cfg['data_settings']['target_city']}_master_raw.csv"), index=False)
+    master.to_csv(os.path.join(raw_dir, f"{cfg1['data_settings']['target_city']}_master_raw.csv"), index=False)
     print(f"✅ Downloaded {len(master)} fresh rows.")

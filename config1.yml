@@ -1,0 +1,3 @@
+api_settings:
+  key: "MEXPNAX54YA3CQMD48HQG8V5D"
+  base_url: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
