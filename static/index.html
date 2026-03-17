@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atmosphere AI | Ultra Intelligence</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="forecast-header">
+                <h2>Next 7 Days</h2>
+                <button id="theme-btn" class="theme-toggle-btn">
+                    <span id="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div id="day-list" class="scrollable-forecast">
+                </div>
+        </aside>
+
+        <main class="main-stage">
+            <div class="hero-section">
+                <div class="location-header">
+                    <h1 id="city-title">JAIPUR</h1>
+                    <p id="live-clock">INITIALIZING...</p>
+                </div>
+
+                <div class="main-weather-card">
+                    <div class="visual-info">
+                        <span id="big-temp">--</span><span class="unit">°</span>
+                        <h2 id="main-condition">SYNCING DATA...</h2>
+                    </div>
+
+                    <div class="stats-row">
+                        <div class="stat-pill"><span>HUMIDITY</span><h3 id="hum-val">--</h3></div>
+                        <div class="stat-pill"><span>WIND</span><h3 id="wind-val">--</h3></div>
+                        <div class="stat-pill"><span>PRESSURE</span><h3 id="pres-val">--</h3></div>
+                        <div class="stat-pill"><span>SUNRISE</span><h3 id="rise-val">--</h3></div>
+                        <div class="stat-pill"><span>SUNSET</span><h3 id="set-val">--</h3></div>
+                    </div>
+                </div>
+
+                <div class="hourly-forecast">
+                    <h3>3-Hourly Intelligence</h3>
+                    <div id="hour-row" class="horizontal-scroll"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
