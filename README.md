@@ -29,8 +29,8 @@ The system follows a modular 4-stage pipeline:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/Atmosphere-AI.git](https://github.com/your-username/Atmosphere-AI.git)
-   cd Atmosphere-AI
+   git clone [https://github.com/adithakur01/weather-Forecast.git]
+   cd weather-Forecast
    ```
 
 2. **Setup Virtual Environment:**
