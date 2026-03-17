@@ -1,10 +1,3 @@
-Ek Senior ML Engineer ke taur par, GitHub par project showcase karna aapke career ke liye bahut zaroori hai. Maine aapke project ke liye ek **Professional, ATS-Friendly README** taiyar kiya hai jo aapke "Physics-Based Machine Learning" aur "Autonomous Pipeline" ko highlight karega.
-
----
-
-### 1. `README.md` (Copy this to your project root)
-
-```markdown
 # 🌤️ Atmosphere AI: Ultra-Level Weather Intelligence
 
 Atmosphere AI is a production-ready, autonomous machine learning pipeline designed to predict weather patterns with high precision. It uses an **ExtraTreesRegressor** backbone combined with **Physics-Based Feature Engineering** to forecast Temperature, Humidity, Windspeed, and Pressure for the next 7 days.
@@ -32,7 +25,7 @@ The system follows a modular 4-stage pipeline:
 - **Frontend:** Streamlit, Plotly, CSS (Glassmorphism)
 - **Data Source:** Open-Meteo Archive API
 
-## 📦 Installation & Setup
+##    Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -65,10 +58,9 @@ The system follows a modular 4-stage pipeline:
 | Metric | Temperature | Humidity | Pressure |
 | :--- | :--- | :--- | :--- |
 | **R2 Score** | 0.999 | 0.990 | 0.951 |
-| **AI Accuracy (5% Tol)** | 89.3% | 83.7% | 78.5% |
-
+| **AI Accuracy (5% Tol)** | 89.3% | 83.7% | 78.5%  |
 ---
+
 Developed with ❤️ by **Aditya Raghav**
-```
 ---
 
